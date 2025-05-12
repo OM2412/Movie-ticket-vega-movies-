@@ -1,0 +1,50 @@
+/* Food Order Section */
+#food-order {
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#food-order:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+#food-order h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.food-item {
+    margin-bottom: 15px;
+}
+
+.food-item label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.food-item input {
+    width: 60px;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#food-total {
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+#food-message {
+    margin-top: 15px;
+}

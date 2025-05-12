@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="food.css">
+<section id="food-order">
+    <h2>Order Food & Beverages</h2>
+    <form id="food-form">
+        <div class="food-item">
+            <label for="popcorn">Popcorn ($5):</label>
+            <input type="number" id="popcorn" name="popcorn" min="0" value="0">
+        </div>
+        <div class="food-item">
+            <label for="soda">Soda ($3):</label>
+            <input type="number" id="soda" name="soda" min="0" value="0">
+        </div>
+        <div class="food-item">
+            <label for="nachos">Nachos ($7):</label>
+            <input type="number" id="nachos" name="nachos" min="0" value="0">
+        </div>
+        <div class="food-item">
+            <label for="candy">Candy ($2):</label>
+            <input type="number" id="candy" name="candy" min="0" value="0">
+        </div>
+        <p>Total Food Cost: $<span id="food-total">0</span></p>
+        <button type="button" class="btn" id="order-food-btn">Order Food</button>
+    </form>
+    <p id="food-message" style="display: none; color: green; font-weight: bold;">Food Order Placed! Enjoy your snacks!</p>
+</section>
+<script src="food.js"></script>

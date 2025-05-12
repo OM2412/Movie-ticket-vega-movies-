@@ -1,0 +1,60 @@
+/* Home Section Styling */
+#home {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#home:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#home ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#home ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+    position: relative;
+    padding-left: 25px;
+}
+
+#home ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ff6a00;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+#home ul li:hover {
+    color: #ff6a00;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}

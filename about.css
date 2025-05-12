@@ -1,0 +1,63 @@
+/* About Section Styling */
+#about {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#about ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #fff;
+    position: relative;
+    padding-left: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#about ul li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffdd57;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+#about ul li:hover {
+    color: #ffdd57;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
